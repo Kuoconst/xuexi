@@ -230,6 +230,15 @@ chrome.storage.local.get(['xbDetailLogs'], (r) => console.log(r.xbDetailLogs));
 
 ---
 
+## 🔗 第三方开源组件
+
+- **Typr.js** (MIT) — https://github.com/photopea/Typr.js
+- **blueimp‑md5** v2.19.0 (MIT) — https://github.com/blueimp/JavaScript‑MD5
+
+> 注：`TyprMd5.js` 是上述库经 jsDelivr 合并压缩后的单文件分发版本，无独立开源仓库，文件内原有版权注释完整保留未修改。
+
+---
+
 <div align="center">
 
 <br>
