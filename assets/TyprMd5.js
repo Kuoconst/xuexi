@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         TyprMd5
-// @namespace    wyn665817@163.com
-// @version      1.0
-// @description  Typr.js,Typr.U.js,md5.js
-// @author       photopea & blueimp
-// @homepageURL  https://cdn.jsdelivr.net/combine/gh/photopea/Typr.js@15aa12ffa6cf39e8788562ea4af65b42317375fb/src/Typr.min.js,gh/photopea/Typr.js@f4fcdeb8014edc75ab7296bd85ac9cde8cb30489/src/Typr.U.min.js,npm/blueimp-md5@2.19.0/js/md5.min.js
-// ==/UserScript==
-
 /**
  * Combined by jsDelivr.
  * Original files:
