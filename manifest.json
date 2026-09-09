@@ -1,0 +1,52 @@
+{
+    "manifest_version": 3,
+    "name": "学习通bot",
+    "version": "3.1.0",
+    "description": "自动答题和刷课助手（重构版）",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "action": {
+        "default_title": "学习通bot"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.chaoxing.com/*",
+                "*://*.xuexitong.com/*"
+            ],
+            "js": [
+                "assets/TyprMd5.js",
+                "src/constants/selectors.js",
+                "src/constants/types.js",
+                "src/constants/config.js",
+                "src/utils/dom.js",
+                "src/utils/iframe.js",
+                "src/utils/sleep.js",
+                "src/utils/api.js",
+                "src/utils/log.js",
+                "src/modules/FontDecryptor.js",
+                "src/modules/QuestionDetector.js",
+                "src/modules/AIClient.js",
+                "src/modules/AnswerFiller.js",
+                "src/modules/CoursePlayer.js",
+                "src/modules/MessageBus.js",
+                "src/main.js",
+                "panel/float-panel.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": false
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["assets/table.json"],
+            "matches": ["*://*.chaoxing.com/*", "*://*.xuexitong.com/*"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}
