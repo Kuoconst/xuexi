@@ -62,8 +62,8 @@
 
 2. **克隆你的 Fork** 到本地
    ```bash
-   git clone https://github.com/Kuoconst/xuexitong.git
-   cd xuexitong
+   git clone https://github.com/Kuoconst/xuexi.git
+   cd xuexi
    ```
 
 3. **创建功能分支**
