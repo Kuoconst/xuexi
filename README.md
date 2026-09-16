@@ -97,7 +97,7 @@
 
 1. **下载或克隆本仓库**
    ```bash
-   git clone https://github.com/Kuoconst/xuexitong.git
+   git clone https://github.com/Kuoconst/xuexi.git
    ```
 
 2. **打开浏览器扩展管理页面**
